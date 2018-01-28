@@ -1,0 +1,4 @@
+[submodule "microservice-tool-localhost-builder"]
+	path = microservice-tool-localhost-builder
+	url = git@bitbucket.org:v-cube/microservice-tool-localhost-builder.git
+	branch = master

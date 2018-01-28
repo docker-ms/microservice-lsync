@@ -1,0 +1,33 @@
+package: lsync
+ignore:
+- microservice
+import:
+- package: github.com/hashicorp/consul
+  version: ~0.8.4
+  subpackages:
+  - api
+- package: github.com/boltdb/bolt
+  version: ~1.3.0
+- package: github.com/golang/protobuf
+  subpackages:
+  - protoc
+- package: github.com/shirou/gopsutil
+  version: ~2.17.06
+  subpackages:
+  - mem
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/grpc
+  version: ~1.4.2
+  subpackages:
+  - codes
+  - grpclog
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
+- package: gopkg.in/robfig/cron.v2
+- package: github.com/openzipkin/zipkin-go-opentracing
+  version: ~0.3.0
+- package: github.com/opentracing/opentracing-go
+  version: ~1.0.2
